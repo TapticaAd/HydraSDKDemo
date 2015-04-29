@@ -14,6 +14,12 @@
 		B31CCB941AEF90FD00556D36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B31CCB931AEF90FD00556D36 /* Images.xcassets */; };
 		B31CCB971AEF90FD00556D36 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B31CCB951AEF90FD00556D36 /* LaunchScreen.xib */; };
 		B31CCBA31AEF90FD00556D36 /* HydraSDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B31CCBA21AEF90FD00556D36 /* HydraSDKDemoTests.m */; };
+		B31CCBAD1AEF911C00556D36 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31CCBAC1AEF911C00556D36 /* AVFoundation.framework */; };
+		B31CCBAF1AEF912200556D36 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31CCBAE1AEF912200556D36 /* CoreTelephony.framework */; };
+		B31CCBB11AEF912D00556D36 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31CCBB01AEF912D00556D36 /* AdSupport.framework */; };
+		B31CCBB31AEF913700556D36 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31CCBB21AEF913700556D36 /* WebKit.framework */; };
+		B31CCBB51AEF914400556D36 /* HydraSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31CCBB41AEF914400556D36 /* HydraSDK.framework */; };
+		B31CCBB71AEF915600556D36 /* HydraSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B31CCBB61AEF915600556D36 /* HydraSDKResources.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,12 @@
 		B31CCB9C1AEF90FD00556D36 /* HydraSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydraSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B31CCBA11AEF90FD00556D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B31CCBA21AEF90FD00556D36 /* HydraSDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HydraSDKDemoTests.m; sourceTree = "<group>"; };
+		B31CCBAC1AEF911C00556D36 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B31CCBAE1AEF912200556D36 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B31CCBB01AEF912D00556D36 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		B31CCBB21AEF913700556D36 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		B31CCBB41AEF914400556D36 /* HydraSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HydraSDK.framework; path = ../../../HydraSDK.framework; sourceTree = "<group>"; };
+		B31CCBB61AEF915600556D36 /* HydraSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = HydraSDKResources.bundle; path = ../../../../HydraSDKResources.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +59,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B31CCBB51AEF914400556D36 /* HydraSDK.framework in Frameworks */,
+				B31CCBB31AEF913700556D36 /* WebKit.framework in Frameworks */,
+				B31CCBB11AEF912D00556D36 /* AdSupport.framework in Frameworks */,
+				B31CCBAF1AEF912200556D36 /* CoreTelephony.framework in Frameworks */,
+				B31CCBAD1AEF911C00556D36 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,11 @@
 		B31CCB7A1AEF90FC00556D36 = {
 			isa = PBXGroup;
 			children = (
+				B31CCBB41AEF914400556D36 /* HydraSDK.framework */,
+				B31CCBB21AEF913700556D36 /* WebKit.framework */,
+				B31CCBB01AEF912D00556D36 /* AdSupport.framework */,
+				B31CCBAE1AEF912200556D36 /* CoreTelephony.framework */,
+				B31CCBAC1AEF911C00556D36 /* AVFoundation.framework */,
 				B31CCB851AEF90FD00556D36 /* HydraSDKDemo */,
 				B31CCB9F1AEF90FD00556D36 /* HydraSDKDemoTests */,
 				B31CCB841AEF90FD00556D36 /* Products */,
@@ -81,6 +103,7 @@
 		B31CCB851AEF90FD00556D36 /* HydraSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B31CCBB61AEF915600556D36 /* HydraSDKResources.bundle */,
 				B31CCB8A1AEF90FD00556D36 /* AppDelegate.h */,
 				B31CCB8B1AEF90FD00556D36 /* AppDelegate.m */,
 				B31CCB8D1AEF90FD00556D36 /* ViewController.h */,
@@ -200,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B31CCB921AEF90FD00556D36 /* Main.storyboard in Resources */,
+				B31CCBB71AEF915600556D36 /* HydraSDKResources.bundle in Resources */,
 				B31CCB971AEF90FD00556D36 /* LaunchScreen.xib in Resources */,
 				B31CCB941AEF90FD00556D36 /* Images.xcassets in Resources */,
 			);
@@ -347,8 +371,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/nissopa/Desktop,
+				);
 				INFOPLIST_FILE = HydraSDKDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -357,8 +386,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/nissopa/Desktop,
+				);
 				INFOPLIST_FILE = HydraSDKDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
